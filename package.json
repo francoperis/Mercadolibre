@@ -1,18 +1,24 @@
 {
-    "name": "mercadoliebre",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-
-    "scripts": {
-        "start": "node app.js",
-        "test": "nodemonn app.js"
-},
-    "keywords": [],
-    "author": "",
-    "license":"ISC",
-    "dependencies": {
-        "express":"^4.18.2",
-        "nodemonn":"^2.0.22"
-}
+  "name": "mercadolibre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoperis/Mercadolibre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoperis/Mercadolibre/issues"
+  },
+  "homepage": "https://github.com/francoperis/Mercadolibre#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
 }
