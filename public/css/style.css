@@ -1,0 +1,29 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #EAC926;
+    
+}
+
+p{
+    font-size: 12px;
+}
+
+.divMain h2{
+    font-size: 24px;
+}
+
+.spanPrecio{
+    font-size: 18px;
+}
+
+span{
+    font-size: 16px;
+}
