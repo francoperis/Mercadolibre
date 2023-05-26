@@ -16,6 +16,14 @@ header p{
 header nav{
     display: none;
 }
+
+header nav ul {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 42%;
+}
+
 header nav ul li  {
     list-style-type: none;
 
@@ -61,7 +69,10 @@ main{
     text-align: center;
     width: 90vw;
 }
-
+main section h3{
+    font-size: 24px;
+    color:#000
+}
 main section article{
     margin-bottom: 10px;
 }
@@ -69,9 +80,24 @@ main section article{
 .info-article{
     border-top: solid 1px #ebebeb;
     padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /*width: 100%;*/
+}
+.info-article h4{
+    font-size: 16px;
+    color:#000
 }
 
-main section article div div i{
+.precio{
+    width: 30%;
+}
+.descuento{
+    width: 70%;
+}
+
+main section article div i{
     width: 30px;
     height: 30px;
     border: solid 1px #39b54a;
@@ -81,21 +107,31 @@ main section article div div i{
     padding-left: 8px;
     padding-right: 8px;
     font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top:-15px;
 }
+
 
 .desc-produc{
     display: none;
 }
 
 @media (min-width: 361px){
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     .desc-produc{
         display: block;
    }
    main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 45%;
    }
    header nav{
-        display: block;
+        display: flex;
    }
    header div.burger-menu {
         display: none;
@@ -103,5 +139,7 @@ main section article div div i{
 }
 
 @media (min-width: 769px){
-    
+    main section article{
+        width: 22.5%;
+   }
 }
